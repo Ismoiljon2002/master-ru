@@ -1,0 +1,1006 @@
+/*  Montserrat 500  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+/* Roboto 500  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --orange: #FF8367;
+}
+
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body {
+    background: #ffffff;
+    color: #444;
+    font-family: 'Montserrat', sans-serif;
+}
+.clr {
+    clear: both;
+}
+.col-md-7, .col-md-6, .col-md-5, .col-md-3, .col-md-4 {
+    float: left;
+    background: transparent;
+}
+
+/*  Navbar  */
+#nav {
+    background: transparent!important;
+}
+.navbar-nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.5px;
+    margin-left: 34%;
+}
+.logo {
+    margin: auto 0 auto 8%;
+}
+.nav-link {
+    margin: 5px 20px;
+    transition: .3s ease;
+}
+.nav-link:hover {
+    color: var(--orange)!important;
+}
+.navBarBtn {
+    color: #ffffff;
+    background: var(--orange);
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    outline: none;
+    padding: 13.5px;
+    margin: auto 0 0 70px;
+    transition: .3s ease;
+}
+.navBarBtn:hover {
+    background: #ffffff;
+    color: var(--orange);
+}
+/*  Navbar End  */
+
+/*  Home  */
+header {
+    padding-top: 50px;
+}
+.col-md-7 {
+    backdrop-filter: blur(25px);
+    background: radial-gradient(#ff83676c 1%, #fff 71%, #fff 23%);
+}
+.col-md-5 {
+    background:radial-gradient(#ff836781 7%, #fff 70%, #fff 12%);
+    background-position-y: top;
+}
+.home-block-1 > .container > h1 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    padding: 25px 14% 25px 13%
+}
+.home-block-1 > .container > h5 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36.5px;
+    padding: 0 19% 0 13%;
+}
+.p1 {
+    margin: 25px 14% 25px calc(13% - 10px);
+}
+.p1 > span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 10px;
+}
+.p2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 13%;
+}
+.home-block-2 {
+    position: relative;
+}
+.rectangle {
+    width: 400px;
+    height: 460px;
+    background: var(--orange);
+    border-bottom-right-radius: 30px;
+    margin: 50px auto 30px 0;
+}
+.home-pic {
+    width: 102%;
+    height: 105%;
+    margin: -45px 0 0 -40px;
+}
+.rectangle > p {
+    position: absolute;
+    display: inline-block;
+    background: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.5px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, .25);
+    padding: 7px 13px;
+}
+.header-right-p1 {
+    margin: 25px 0 0 -500px;
+}
+.header-right-p2 {
+    margin: 150px 0 0 -500px;
+}
+.header-right-p3 {
+    margin: 150px 0px 0 -60px;
+}
+.header-right-p4 {
+    margin: 310px 0px 0 -60px;
+    padding: 25px 35px!important;
+}
+.img-vector {
+    position: absolute;
+    bottom: 50px;
+    right: 280px
+}
+/*  Home End */
+
+/*  Services */
+.services {
+    margin: 100px 0;
+}
+.replicate {
+    margin: -15px 0 -11px;
+}
+.services > .container > h2 {
+    width: 60%;
+    margin: 0 auto 40px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+}
+.services > .container > h5 {
+    margin: 0 auto 100px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+}
+.col-md-3 {
+    padding: 10px 30px 20px;
+}
+.col-md-3 > h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.5px;
+    margin: 25px 0 20px;
+}
+.col-md-3 > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+/*  Services End */
+
+/*  CallMaster  */
+.callMaster {
+    background-image: url('./img/services-bg.png');
+    height: 550px;
+    margin: 150px 0 50px;
+    padding: 40px 0;
+}
+.mechanic {
+    margin: -150px 0 0;
+    width: 100%;
+}
+.mechanic-btm {
+    margin: -150px 0 0;
+}
+.col-md-4 > h4 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36.5px;
+    margin: 10px 0;
+}
+.col-md-4 > p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+}
+.contact-block {
+    float: right;
+    text-align: right;
+}
+.contact-block > h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    margin: 10px 0;
+}
+.contact-block > p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30.5px;
+    margin: 5px 0 40px;
+}
+.contact-block > form > input {
+    width: 80%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.5px;
+    padding: 23px 13px;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+input[type=button] {
+    background: var(--orange);
+    color: #ffffff;
+    border: 1px solid var(--orange);
+    transition: .3s ease;
+}
+input[type=button]:hover {
+    background: #ffffff;
+    color: var(--orange);
+}
+/*  CallMaster End  */
+
+/*  Comment Section  */
+.comment {
+    margin: 150px 0;
+}
+.comment > div > h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    margin: 0 auto 80px;
+    text-align: center;
+}
+.comment-card {
+    position: relative;
+    max-width: 85%;
+    width: 80%;
+    height: 380px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, .15)
+}
+.comment-img {
+    width: 100px;
+    margin: 20px auto 0 20px;
+    text-align: left;
+}
+.comment-card > .container > p {
+    width: 88%;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    margin: -55px auto 50px;
+}
+.author {
+    position: absolute;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: right;
+    color: var(--orange);
+    letter-spacing: .09rem;
+    right: 30px;
+    bottom: 25px;
+}
+.face-1 {
+    margin: 0 2% 0 10%;
+}
+.face-2, .face-3, .face-4, .face-5 {
+    margin: 0 2%;
+}
+/*  Comment Section  */
+
+/*  Footer  */
+footer {
+    height: 190px;
+    background: #ff826640;
+}
+.footer-logo {
+    margin: 65px 100px 50px 0;
+}
+.footerLink {
+    text-decoration: none;
+    font-size: 25px!important;
+    line-height: 23.5px;
+    color: #444!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 7px;
+    margin: 0px 20px;
+    transition: .3s ease;
+}
+.footerLink:hover {
+    color: var(--orange)!important;
+}
+.footerBtn {
+    font-size: 20px!important;
+    line-height: 23.5px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    border: 1px solid var(--orange)!important;
+    color: #fff!important;
+    background: var(--orange);
+    font-weight: 500;
+    padding: 14px;
+    margin-left: 100px;
+    outline: none;
+}
+.footerBtn:hover {
+    background: #ffffff;
+    color: var(--orange)!important;
+}
+/*  Footer End  */
+@media only screen and (max-width: 1500px) {
+    .navbar-nav {
+        margin-left: 30%;
+    }
+    .img-vector {
+        right: 230px
+    }
+}
+@media only screen and (max-width: 1399px) {
+    .logo {
+        margin: auto 0 auto 4.5%;
+    }
+    .navbar-nav {
+        margin-left: 27.5%;
+    }
+    .home-block-1 > .container > h1 {
+        font-size: 53px;
+        line-height: 65px;
+        padding: 25px 12% 25px 7%;
+    }
+    .home-block-1 > .container > h5 {
+        font-size: 28px;
+        padding: 0 12% 0 7%;
+    }
+    .p1 {
+        margin: 25px 14% 25px calc(7% - 10px);
+    }
+    .p2 {
+        margin-left: 7%;
+    }
+    .rectangle {
+        width: 350px;
+        height: 420px;
+    }
+    .home-pic {
+        margin: -40px 0 0 -35px;
+    }
+    .header-right-p1 {
+        margin: 25px 0 0 -480px;
+    }
+    .header-right-p2 {
+        margin: 150px 0 0 -480px;
+    }
+    .header-right-p3 {
+        margin: 150px 0 0 -80px;
+    }
+    .header-right-p4 {
+        margin: 270px 0 0 -80px;
+    }
+    .services > .container > h2 {
+        width: 65%;
+    }
+    .mechanic {
+        margin: -55px 0 0;
+    }
+    .comment-card > .container > p {
+        width: 78%;
+        font-size: 29px;
+        line-height: 35px;
+        margin: -35px auto 50px;
+    }
+    .author {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .face-1 {
+        margin: 0 1% 0 9%;
+    }
+    .face-2, .face-3, .face-4, .face-5 {
+        margin: 0 1%;
+    }
+}
+@media only screen and (max-width: 1299px) {
+    .navbar-nav {
+        margin-left: 22%;
+    }
+    .rectangle {
+        margin: 50px auto 30px 40px;
+    }
+    .img-vector {
+        right: 150px
+    }
+    .header-right-p3 {
+        margin: 150px 0 0 -100px;
+    }
+    .header-right-p4 {
+        margin: 270px 0 0 -100px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+/*  Navbar  */
+    .navbar-nav {
+        margin-left: 25.5%;
+    }
+    .nav-link {
+        margin: 5px 10px;
+    }
+    .navBarBtn {
+        margin: auto 0 0 20px;
+    }
+    .home-block-1 > .container > h1 {
+        padding: 25px 10.78% 25px 7%;
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .home-block-1 > .container > h5 {
+        padding: 0 9% 0 7%;
+    }
+    .rectangle {
+        width: 300px;
+        height: 380px;
+    }
+    .header-right-p1 {
+        margin: 25px 0 0 -390px;
+    }
+    .header-right-p2 {
+        margin: 130px 0 0 -390px;
+    }
+    .header-right-p3 {
+        margin: 130px 0 0 -130px;
+    }
+    .header-right-p4 {
+        margin: 240px 0 0 -130px;
+    }
+    .img-vector {
+        bottom: 45px;
+    }
+    .services > .container > h2 {
+        width: 70%;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .services > .container > h5 {
+        margin: 0 auto 80px;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .col-md-3 {
+        padding: 10px 5px 20px;
+    }
+    .replicate {
+        margin: -13px 0 ;
+    } 
+    /*  CallMaster  */
+    .callMaster {
+        margin: 80px 0;
+    }
+    .col-md-4 > h4 {
+        margin: 0 0 10px;
+    }
+    .col-md-4 > p {
+        font-size: 17px;
+    }
+    .mechanic {
+        margin: 40px 0 0;
+    }
+    .contact-block > h3 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .contact-block > p {
+        font-size: 21px;
+        line-height: 27px;
+        margin: 5px 0 30px;
+    }
+    .comment > div > h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin: 0 auto 50px;
+    }
+    .comment-card > .container > p {
+        width: 73%;
+        font-size: 26px;
+        line-height: 32px;
+        margin: -30px auto 50px;
+    }
+    .face-1 {
+        margin: 0 1.7% 0 9%;
+        width: 120px;
+    }
+    .face-2, .face-3, .face-4, .face-5 {
+        margin: 0 1.7%;
+        width: 120px;
+    }
+    .face-3 {
+        width: 150px;
+    }
+    footer {
+        height: 130px;
+        background: #ff826640;
+    }
+    .footer-logo {
+        margin: 20px 50px 30px 0;
+    }
+    .footerLink {
+        font-size: 20px!important;
+        margin: 0px 15px;
+    }
+    .footerBtn {
+        font-size: 20px!important;
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 1099px) {
+    .navbar-nav {
+        margin-left: 20%;
+    }
+    .img-vector {
+        right: 110px
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        margin: auto;
+        text-align: center;
+    }
+    .nav-link {
+        width: 77%;
+        font-size: 22px;
+        margin: auto;
+        padding: 5px 0 15px;
+    }
+    .navBarBtn {
+        width: 77%;
+        font-size: 22px;
+        padding: auto;
+        margin: auto;
+    }
+    .navbar-toggler {
+        font-size: 18px;
+        color: #ffffff!important;
+        border: 1.5px solid var(--orange)!important;
+        margin: 0 5%;
+        transition: .3s ease;
+    }
+    .navbar-toggler:hover {
+        background: var(--orange);
+        background: #ff826640;
+    }
+    .navbar-toggler:focus {
+        background: var(--orange);
+    }
+    .home-block-1 > .container > h1 {
+        font-size: 35px;
+        line-height: 45px;
+        padding: 25px 40px 25px 7%;
+    }
+    .home-block-1 > .container > h5 {
+        font-size: 21px;
+        line-height: 28px;
+        padding: 0 45px 0 7%;
+    }
+    .p1 {
+        margin: 30px 10px 15px calc(7% - 10px);
+    }
+    .p1 > span {
+        font-size: 18px;
+    }
+    .p2 {
+        font-size: 18px;
+        margin-left: 7%;
+    }
+    .rectangle {
+        width: 250px;
+        height: 320px;
+        margin: 50px auto;
+    }
+    .rectangle > p {
+        font-size: 14px;
+    }
+    .header-right-p1 {
+        margin: -25px 0 0 -300px;
+    }
+    .header-right-p2 {
+        margin: 50px 0 0 -300px;
+    }
+    .header-right-p4 {
+        padding: 20px 35px!important;
+    }
+    .img-vector {
+        width: 0;
+    }
+    .services {
+        margin: 70px 0;
+    }
+    .services > .container > h2 {
+        width: 76%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .services > .container > h5 {
+        margin: 0 auto 70px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .col-md-3 {
+        padding: 0 3px;
+    }
+    .col-md-3 > h5 {
+        font-size: 16px;
+        line-height: 20.5px;
+    }
+    .col-md-3 > p {
+        font-size: 14px;
+    } 
+    /*  CallMaster  */
+    .callMaster {
+        margin: 60px 0;
+    }
+    .col-md-4 > h4 {
+        margin: 0 0 10px;
+        font-size: 25px;
+    }
+    .col-md-4 > p {
+        font-size: 14px;
+    }
+    .mechanic {
+        margin: 170px 0 0;
+    }
+    .mechanic-btm {
+        width: 100%;
+        margin: -110px 0 0;
+    }
+    .contact-block > h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .contact-block > p {
+        font-size: 19.5px;
+        line-height: 25px;
+        margin: 5px 0 50px;
+    }
+    .contact-block > form > input {
+        font-size: 19px;
+        padding: 18px 13px;
+        margin: 10px 0;
+    }
+    .comment {
+        margin: 60px 0 100px;
+    }
+    .comment-card {
+        max-width: 94%;
+        width: 91%;
+        height: 320px;
+    }
+    .comment-img {
+        width: 70px;
+        margin: 15px auto 0 15px;
+    }
+    .comment > div > h2 {
+        font-size: 28px;
+        line-height: 35px;
+        margin: 0 auto 40px;
+    }
+    .comment-card > .container > p {
+        width: 75%;
+        font-size: 22px;
+        line-height: 27px;
+        margin: -15px auto 0;
+    }
+    .author {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .face-1 {
+        margin: 0 1.7% 0 4.5%;
+        width: 100px;
+    }
+    .face-2, .face-3, .face-4, .face-5 {
+        width: 100px;
+    }
+    .face-3 {
+        width: 120px;
+    }
+    footer {
+        height: 123px;
+    }
+    .footer-logo {
+        margin: 20px 15px 30px 0;
+    }
+    .footerLink {
+        font-size: 17px!important;
+        margin: 0px 5px;
+    }
+    .footerBtn {
+        font-size: 17px!important;
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .col-md-7, .col-md-5 {
+        max-width: 100%;
+        width: 90%;
+        margin: 0 5%;
+        backdrop-filter: blur(15px);
+    }
+    .col-md-5 {
+        background: none;
+        backdrop-filter: none;
+    }
+    .home-block-1 > .container > h1 {
+        font-size: 33px;
+        line-height: 41px;
+        padding: 25px 0px 20px;
+    }
+    .home-block-1 > .container > h5 {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 0;
+    }    
+    .p1 {
+        margin: 30px 0px 20px -10px;
+    }
+    .p1 > span {
+        font-size: 15px;
+    }
+    .p2 {
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .rectangle {
+        width: 280px;
+        margin: 130px auto 60px;
+    }
+    .header-right-p1 {
+        margin: -70px 0 0 -300px;
+    }
+    .header-right-p2 {
+        margin: 90px 0 0 -300px;
+    }
+    .header-right-p3 {
+        margin: 190px 0 0 -130px;
+    }
+    .header-right-p4 {
+        margin: 310px 0 0 -130px;
+    }
+    .services > .container > h2 {
+        width: 100%;
+        font-size: 29px;
+        line-height: 36.4px;
+    }
+    .services > .container > h5 {
+        margin: -20px auto 40px;
+        font-size: 20px;
+        line-height: 24.5px;
+    }
+    .col-md-3 {
+        max-width: 80%;
+        width: 80%;
+        padding: 30px 0;
+        margin: 0px auto 0 10%;
+    }
+    .col-md-3 > h5 {
+        font-size: 20px;
+        line-height: 24.5px;
+    }
+    .col-md-3 > p {
+        font-size: 16px;
+        line-height: 19.5px;
+    }
+    .callMaster {
+        height: 1300px;
+    }
+    .col-md-4 > h4 {
+        font-size: 25px;
+        line-height: 30.5px;
+    }
+    .col-md-4 > p {
+        font-size: 16px;
+    }
+    .mechanic {
+        width: 80%;
+        margin: 80px 0 0;
+    }
+    .mechanic-btm {
+        width: 80%;
+        margin: -250px 0 0;
+    }
+    .contact-block > p {
+        font-size: 20px;
+        margin: 5px 0 30px;
+    }
+    .contact-block > form > input {
+        font-size: 20px;
+        width: 100%;
+        padding: 23px 13px;
+        margin: 10px 0;
+    }
+    .comment > div > h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin: 0 auto 30px;
+    }
+    .comment-card {
+        height: 400px;
+        width: 92%;
+    }
+    .comment-img {
+        width: 56px;
+        margin: 0;
+    }
+    .comment-card > .container > p {
+        font-size: 24px;
+        line-height: 30px;
+        width: 96%;
+        margin: 0;
+    }
+    .author {
+        font-size: 25px;
+        line-height: 30px;
+        bottom: 12px;
+        right: 15px;
+    }
+    .face-2 {
+        margin: 0 4.6%;
+        width: 110px;
+    }
+    .face-1, .face-5 {
+        display: none;
+    }
+    .face-4 {
+        margin: 0 4.6%;
+        width: 110px;
+    }
+    .face-3 {
+        width: 135px;
+    }
+    footer {
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .footer-logo {
+        display: block;
+        margin: 0 auto;
+        padding: 50px 0 20px;
+    }
+    .footerLink {
+        font-size: 20px!important;
+        line-height: 24px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        margin: 30px 5px;
+    }
+    .footerBtn {
+        width: 62%;
+        display: block;
+        font-size: 20px!important;
+        margin: 0px auto;
+    }
+}
+@media only screen and (max-width: 510px ) {
+    .callMaster {
+        height: 1420px;
+        max-height: 1420px;
+    }
+    .mechanic {
+        width: 90%;
+        margin: 50px 0 0;
+    }
+    .mechanic-btm {
+        width: 120%;
+    }
+    .face-2 {
+        margin: 0 7.2%;
+        width: 80px;
+    }
+    .face-4 {
+        margin: 0 7.2%;
+        width: 80px;
+    }
+    .face-3 {
+        width: 107px;
+    }
+    .comment-card {
+        height: 480px;
+    }
+}
+@media only screen and (max-width: 435px ) {
+    .callMaster {
+        height: 1450px;
+        max-height: 1450px;
+        background: url('./img/services-bg-mob.png');
+    }
+    .mechanic {
+        width: 100%;
+    }
+    .face-2 {
+        margin: 0 5%;
+    }
+    .face-4 {
+        margin: 0 5%;
+    }
+}
+@media only screen and (max-width: 400px) { 
+    .col-md-7, .col-md-5 {
+        width: 100%;
+        margin: 0;
+    }
+    .col-md-3 {
+        max-width: 92%;
+        width: 92%;
+        margin: 0px auto 0 4%;
+    }
+    .home-block-1 > .container > h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .rectangle {
+        width: 250px;
+        margin: 100px auto 0 18%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .rectangle > p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .header-right-p1 {
+        margin: -70px 0 0 -280px;
+    }
+    .header-right-p2 {
+        margin: 50px 0 0 -280px;
+    }
+    .header-right-p3 {
+        margin: 150px -40px 0 -100px;
+    }
+    .header-right-p4 {
+        margin: 280px -50px 0 -100px;
+    }
+    .callMaster {
+        height: 1330px;
+    }
+    .services > .container > h2 {
+        font-size: 25px;
+    }
+    .contact-block > p {
+        font-size: 19px;
+    }
+    .contact-block > form > input {
+        padding: 18px 13px;
+    }
+    .comment > div > h2 {
+        font-size: 28px;
+    }
+    .comment-card > .container > p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .comment-card {
+        height: 410px;
+    }
+    .face-2 {
+        margin: 0 3%;
+    }
+    .face-4 {
+        margin: 0 3%;
+    }
+}
